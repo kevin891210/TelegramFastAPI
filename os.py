@@ -1,7 +1,7 @@
 import os
 
 API_ID = int(os.getenv("TG_API_ID", "0"))
-API_HASH = os.getenv("TG_API_HASH", "")
+API_HASH = os.getenv("TG_API_HASH", "843b2878d3d02fad55de7043516d3e56")
 TG_SESSION = os.getenv("TG_SESSION")  # leave empty the first run – we’ll print it
 
 N8N_WEBHOOK_URL = os.getenv("N8N_WEBHOOK_URL", "")  # e.g. https://my‑n8n/webhook/telegram‑in
