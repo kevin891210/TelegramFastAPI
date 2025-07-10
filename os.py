@@ -7,7 +7,7 @@ TG_SESSION = os.getenv("TG_SESSION")  # leave empty the first run – we’ll pr
 N8N_WEBHOOK_URL = os.getenv("N8N_WEBHOOK_URL", "https://yhchen.zeabur.app/webhook/f18d6766-9d10-4c79-90a0-41123cb9f7f5")  
 # e.g. https://my‑n8n/webhook/telegram‑in
 
-API_AUTH_TOKEN = os.getenv("API_AUTH_TOKEN")
+API_AUTH_TOKEN = os.getenv("API_AUTH_TOKEN", "3QATu0StU3Vvhqi8KvqsY3eeuZ3eVv00niHpVJBWvM0")
 
 LISTEN_HOST = os.getenv("HOST", "0.0.0.0")
 LISTEN_PORT = int(os.getenv("PORT", "8080"))
